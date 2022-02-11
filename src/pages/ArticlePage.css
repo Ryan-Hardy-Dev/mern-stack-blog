@@ -1,0 +1,134 @@
+ .upvote-btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    margin: 0.1rem;
+}
+
+.upvote-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.article {
+    margin-bottom: 1.5rem;
+}
+
+.view-comments-btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008080;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    margin: 0.1rem;
+}
+
+.view-comments-btn:hover {
+    background-color: #008080;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.add-comment-btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008080;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+
+.add-comment-btn:hover {
+    background-color: #008080;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.add-comment-btn:disabled,
+.add-comment-btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.username-input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0 0 0.5rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.comment-input {
+    width: 50%;
+    height: 5rem;
+    padding: 12px 20px;
+    margin: 8px 0 0 0.5rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    width: 40rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.main-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.delete-article-btn {
+    background-color: rgb(241, 70, 70); 
+    color: black; 
+    border: 2px solid black;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    margin: 0.1rem;
+}
+
+.delete-article-btn:hover {
+    background-color: rgb(241, 70, 70);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
